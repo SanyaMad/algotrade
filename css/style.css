@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
 
@@ -25,6 +25,7 @@ img {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
+
 .button:hover {
   cursor: pointer;
 }
@@ -35,6 +36,7 @@ img {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
 .button--primary:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -75,6 +77,7 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
+
 .logo__img {
   margin-right: 0.85rem;
 }
@@ -87,6 +90,7 @@ img {
   margin-right: 5rem;
   padding: 2.142rem 0;
 }
+
 .nav__item:hover {
   color: #000;
   border-bottom: 3px solid #0842b7;
@@ -104,34 +108,41 @@ img {
   padding-top: 17rem;
   margin-bottom: 16rem;
 }
+
 .hero__title {
   font-size: 5rem;
   font-weight: normal;
 }
+
 .hero__title--second {
   font-weight: normal;
   font-size: 2.5rem;
 }
+
 .hero__text {
   max-width: 23rem;
   margin-top: 2.14rem;
   margin-bottom: 4.85rem;
 }
+
 .hero__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
+
 .hero__buttons--text {
   text-align: left;
   margin-left: 3.78rem;
   margin-top: 1.35rem;
 }
+
 .hero__button {
   margin-bottom: 0.85rem;
 }
 
 .buttons {
+  display: -ms-grid;
   display: grid;
 }
 
@@ -143,6 +154,7 @@ img {
 .text__selection {
   color: #06BEE1;
 }
+
 .text__selection__robot {
   font-size: 8rem;
 }
@@ -150,29 +162,35 @@ img {
 .block__robot {
   margin-right: 11rem;
 }
+
 .block__robot1 {
   margin-top: 18rem;
   margin-right: 2.5rem;
 }
+
 .block__robot2 {
   margin-top: 16.75rem;
 }
+
 .block__whyrobot__title {
   margin-top: 20rem;
   max-width: 26rem;
   background-color: #FFF;
   padding: 1.42rem;
 }
+
 .block__robot__title {
   font-size: 24.4rem;
   font-weight: normal;
 }
+
 .block__title {
   font-size: 1.8rem;
   text-align: left;
   max-width: 20.5rem;
   margin-bottom: 2.2rem;
 }
+
 .block__title1 {
   font-size: 1.8rem;
   text-align: left;
@@ -180,6 +198,7 @@ img {
   margin-bottom: 2.2rem;
   font-weight: normal;
 }
+
 .block__text {
   font-size: 1.14rem;
   text-align: left;
@@ -191,6 +210,7 @@ img {
   font-weight: normal;
   text-align: center;
 }
+
 .whyrobot__blocks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -200,12 +220,17 @@ img {
 .robot__img {
   margin-bottom: 6rem;
 }
+
 .robot__img1 {
   margin-bottom: 6rem;
 }
 
+.create {
+  background: url(../img/createbg.png) no-repeat bottom;
+}
+
 .create__title {
-  font-family: "Roboto-light  ", sans-serif;
+  font-family: 'Roboto-light  ', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   text-align: center;
@@ -213,8 +238,9 @@ img {
   margin: auto;
   margin-bottom: 1.8rem;
 }
+
 .create__subtitle {
-  font-family: "Roboto-light  ", sans-serif;
+  font-family: 'Roboto-light  ', sans-serif;
   font-size: 1.14rem;
   text-align: center;
   max-width: 26rem;
@@ -222,8 +248,49 @@ img {
   margin-bottom: 6rem;
 }
 
+.create__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.create__input {
+  margin-right: 2.35rem;
+  max-width: 7rem;
+  min-height: 3rem;
+  border: 1px solid #cfdeee;
+}
+
+.create__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 8.57rem;
+}
+
+.create__btn {
+  cursor: pointer;
+  padding: 1.2rem 1.9rem;
+  border: none;
+  border-radius: 5px;
+  background: #0842b7;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 .create__block__title {
   margin: auto;
+}
+
+.inputs__block__text {
+  margin-right: 9.6rem;
 }
 
 .inputs__title {
@@ -237,4 +304,62 @@ img {
   max-width: 12rem;
   font-weight: normal;
   font-size: 1rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.block__inputs {
+  -webkit-columns: 2 23rem;
+          columns: 2 23rem;
+}
+
+.input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5.14rem;
+}
+
+.label__create {
+  max-width: 13rem;
+}
+
+.study {
+  background: url(../img/study-bg.png) no-repeat center/cover;
+}
+
+.study__text {
+  padding-top: 9rem;
+  padding-bottom: 8.5rem;
+  margin: auto;
+}
+
+.study__title {
+  max-width: 28rem;
+  font-size: 1.5rem;
+  color: #FFF;
+  text-align: center;
+  margin: auto;
+}
+
+.study__button__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.study__button {
+  cursor: pointer;
+  padding: 1.2rem 2.6rem;
+  color: #FFF;
+  border: 1px solid #FFF;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.lightblue {
+  color: #06BEE1;
+}
+/*# sourceMappingURL=style.css.map */
