@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
 
@@ -25,7 +25,6 @@ img {
   text-transform: uppercase;
   font-size: 1.2rem;
 }
-
 .button:hover {
   cursor: pointer;
 }
@@ -36,7 +35,6 @@ img {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .button--primary:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -77,7 +75,6 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-
 .logo__img {
   margin-right: 0.85rem;
 }
@@ -90,7 +87,6 @@ img {
   margin-right: 5rem;
   padding: 2.142rem 0;
 }
-
 .nav__item:hover {
   color: #000;
   border-bottom: 3px solid #0842b7;
@@ -108,41 +104,34 @@ img {
   padding-top: 17rem;
   margin-bottom: 16rem;
 }
-
 .hero__title {
   font-size: 5rem;
   font-weight: normal;
 }
-
 .hero__title--second {
   font-weight: normal;
   font-size: 2.5rem;
 }
-
 .hero__text {
   max-width: 23rem;
   margin-top: 2.14rem;
   margin-bottom: 4.85rem;
 }
-
 .hero__buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .hero__buttons--text {
   text-align: left;
   margin-left: 3.78rem;
   margin-top: 1.35rem;
 }
-
 .hero__button {
   margin-bottom: 0.85rem;
 }
 
 .buttons {
-  display: -ms-grid;
   display: grid;
 }
 
@@ -154,7 +143,6 @@ img {
 .text__selection {
   color: #06BEE1;
 }
-
 .text__selection__robot {
   font-size: 8rem;
 }
@@ -162,35 +150,29 @@ img {
 .block__robot {
   margin-right: 11rem;
 }
-
 .block__robot1 {
   margin-top: 18rem;
   margin-right: 2.5rem;
 }
-
 .block__robot2 {
   margin-top: 16.75rem;
 }
-
 .block__whyrobot__title {
   margin-top: 20rem;
   max-width: 26rem;
   background-color: #FFF;
   padding: 1.42rem;
 }
-
 .block__robot__title {
   font-size: 24.4rem;
   font-weight: normal;
 }
-
 .block__title {
   font-size: 1.8rem;
   text-align: left;
   max-width: 20.5rem;
   margin-bottom: 2.2rem;
 }
-
 .block__title1 {
   font-size: 1.8rem;
   text-align: left;
@@ -198,19 +180,17 @@ img {
   margin-bottom: 2.2rem;
   font-weight: normal;
 }
-
 .block__text {
   font-size: 1.14rem;
   text-align: left;
   max-width: 15.5rem;
 }
 
-.whyrobot {
+.whyrobot__title {
   font-size: 2.1rem;
   font-weight: normal;
   text-align: center;
 }
-
 .whyrobot__blocks {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,7 +200,6 @@ img {
 .robot__img {
   margin-bottom: 6rem;
 }
-
 .robot__img1 {
   margin-bottom: 6rem;
 }
@@ -228,9 +207,8 @@ img {
 .create {
   background: url(../img/createbg.png) no-repeat bottom;
 }
-
 .create__title {
-  font-family: 'Roboto-light  ', sans-serif;
+  font-family: "Roboto-light  ", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   text-align: center;
@@ -238,29 +216,25 @@ img {
   margin: auto;
   margin-bottom: 1.8rem;
 }
-
 .create__subtitle {
-  font-family: 'Roboto-light  ', sans-serif;
+  font-family: "Roboto-light  ", sans-serif;
   font-size: 1.14rem;
   text-align: center;
   max-width: 26rem;
   margin: auto;
   margin-bottom: 6rem;
 }
-
 .create__inputs {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 .create__input {
   margin-right: 2.35rem;
   max-width: 7rem;
   min-height: 3rem;
   border: 1px solid #cfdeee;
 }
-
 .create__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -273,7 +247,6 @@ img {
           justify-content: center;
   margin-bottom: 8.57rem;
 }
-
 .create__btn {
   cursor: pointer;
   padding: 1.2rem 1.9rem;
@@ -283,6 +256,7 @@ img {
   color: #FFF;
   font-size: 1.2rem;
   font-weight: bold;
+  text-transform: uppercase;
 }
 
 .create__block__title {
@@ -308,6 +282,7 @@ img {
 
 .block__inputs {
   -webkit-columns: 2 23rem;
+     -moz-columns: 2 23rem;
           columns: 2 23rem;
 }
 
@@ -325,13 +300,11 @@ img {
 .study {
   background: url(../img/study-bg.png) no-repeat center/cover;
 }
-
 .study__text {
   padding-top: 9rem;
   padding-bottom: 8.5rem;
   margin: auto;
 }
-
 .study__title {
   max-width: 28rem;
   font-size: 1.5rem;
@@ -339,7 +312,6 @@ img {
   text-align: center;
   margin: auto;
 }
-
 .study__button__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -349,7 +321,6 @@ img {
           justify-content: center;
   margin-top: 2.5rem;
 }
-
 .study__button {
   cursor: pointer;
   padding: 1.2rem 2.6rem;
@@ -362,4 +333,60 @@ img {
 .lightblue {
   color: #06BEE1;
 }
-/*# sourceMappingURL=style.css.map */
+
+.simple__block__title {
+  margin-top: 8.35rem;
+}
+.simple__title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.6rem;
+}
+.simple__text {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 7rem;
+  text-align: center;
+  max-width: 27rem;
+  font-size: 1.14rem;
+}
+.simple__list {
+  list-style-type: none;
+  text-align: center;
+}
+
+.list__item {
+  position: relative;
+  font-size: 1.7rem;
+  margin-bottom: 7rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.video {
+  text-align: center;
+}
+.video__img {
+  position: relative;
+  margin-bottom: 5.5rem;
+}
+.video__title {
+  font-size: 1.35rem;
+  margin-bottom: 2.14rem;
+}
+.video__text {
+  margin: auto;
+  margin-bottom: 3.2rem;
+  font-size: 1.14rem;
+  max-width: 40.2rem;
+}
+.video__text::before {
+  content: "";
+  background: url("../img/play.png") no-repeat center;
+  height: 64px;
+  width: 64px;
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=style.css.map */
