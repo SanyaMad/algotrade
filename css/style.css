@@ -470,4 +470,40 @@ img {
 .format__item--text {
   max-width: 15.85rem;
   margin-bottom: 10rem;
+}
+
+.process-algotrading {
+  background: url(../img/process-bg.png) no-repeat top;
+}
+
+.process__title {
+  font-weight: normal;
+  max-width: 28rem;
+  font-size: 2.1rem;
+  margin-bottom: 13rem;
+}
+.process__time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.process__time--item {
+  max-width: 11.85rem;
+  margin-right: 10rem;
+}
+.process__time--item:last-child {
+  margin-right: 0;
+}
+.process__time--number {
+  font-size: 2rem;
+  margin-bottom: 3.2rem;
+}
+.process__time--subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+.process__time--text {
+  line-height: 1.42rem;
+  margin-bottom: 7.28rem;
 }/*# sourceMappingURL=style.css.map */
