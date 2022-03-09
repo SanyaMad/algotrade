@@ -765,6 +765,7 @@ img {
   border-radius: 5px;
   color: #0842b7;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .price__button--first {
@@ -791,6 +792,7 @@ img {
   max-width: 29.7rem;
   margin: auto;
   margin-bottom: 3.2rem;
+  line-height: 1.6rem;
 }
 
 .studyinputs__form {
@@ -923,5 +925,100 @@ img {
 
 .results__block--text {
   max-width: 18.7rem;
+}
+
+.cashback {
+  background: url(../img/cashback--bg.png) no-repeat center/cover;
+  text-align: center;
+}
+
+.cashback__title {
+  margin: auto;
+  font-size: 1.6rem;
+  max-width: 21.4rem;
+  text-align: center;
+  padding-top: 9.5rem;
+  padding-bottom: 2rem;
+}
+
+.cashback__button {
+  background-color: #0842b7;
+  color: #FFF;
+  padding: 1.2rem 2.85rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 8.42rem;
+}
+
+.questions {
+  background: url(../img/questions--bg.png) no-repeat center/cover;
+}
+
+.questions__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 8.78rem;
+}
+
+.questions__input {
+  min-width: 18.8rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-left: 1.2rem;
+  margin-right: 2.1rem;
+  border: none;
+  border-radius: 3px;
+}
+
+.questions__input::-webkit-input-placeholder {
+  color: #000;
+  font-size: 1.14rem;
+}
+
+.questions__input:-ms-input-placeholder {
+  color: #000;
+  font-size: 1.14rem;
+}
+
+.questions__input::-ms-input-placeholder {
+  color: #000;
+  font-size: 1.14rem;
+}
+
+.questions__input::placeholder {
+  color: #000;
+  font-size: 1.14rem;
+}
+
+.questions__title {
+  padding-top: 9.14rem;
+  font-size: 1.6rem;
+}
+
+.questions__text {
+  max-width: 27.4rem;
+  line-height: 1.6rem;
+}
+
+.questions__button {
+  background: #0842b7;
+  border: none;
+  border-radius: 3px;
+  color: #FFF;
+  padding: 1.2rem;
+  min-width: 19rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 /*# sourceMappingURL=style.css.map */
