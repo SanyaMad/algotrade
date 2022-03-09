@@ -8,13 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="menu">
-                <div class="logo"><img src="img/logo.png" alt="logo"    class="logo__img">АЛГОТРЕЙДИНГ</div>
+                <div class="logo"><img src="img/logo.png" alt="logo" class="logo__img">АЛГОТРЕЙДИНГ</div>
                 <nav class="nav menu__nav">
                     <a href="#" class="nav__item">ОБУЧЕНИЕ ТОРГОВЛЕ</a>
                     <a href="#" class="nav__item">АНАЛИТИКА</a>
@@ -126,6 +127,54 @@
                 </div>
         </div>
     </section>
+    <section class="section benefits">
+        <div class="container">
+            <h2 class="section-title__heading"><strong>Какие выгоды </strong> я получу<br> от создания своего робота?</h2>
+            <div class="benefits-swiper">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img src="./img/stonks.png" alt="прибыль" class="swiper-slide__img">
+                            <h3 class="swiper-slide__text">Прибыль</h3>
+                            <p class="swiper-slide__desc">Используйте <br> своего робота <br> и получайте прибыль</p>
+                        </div>
+                        <!-- /.swiper-slide__content -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img src="./img/stonks.png" alt="прибыль" class="swiper-slide__img">
+                            <h3 class="swiper-slide__text">Прибыль</h3>
+                            <p class="swiper-slide__desc">Используйте <br> своего робота <br> и получайте прибыль</p>
+                        </div>
+                        <!-- /.swiper-slide__content -->
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="swiper-slide__content">
+                            <img src="./img/stonks.png" alt="прибыль" class="swiper-slide__img">
+                            <h3 class="swiper-slide__text">Прибыль</h3>
+                            <p class="swiper-slide__desc">Используйте <br> своего робота <br> и получайте прибыль</p>
+                        </div>
+                        <!-- /.swiper-slide__content -->
+                    </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev">
+                        <span class="swiper-button__text swiper-button-prev__text">Комиссия</span>
+                    </div>
+                    <div class="swiper-button-next">
+                        <span class="swiper-button__text swiper-button-next__text">Вознаграждение</span>
+                    </div>
+              </div>
+            </div>
+            <!-- /.benefits-swiper -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section benefits -->
     <section class="simple">
         <div class="container">
             <div class="simple__block__title">
@@ -173,21 +222,24 @@
                 <div class="format__item">
                     <img src="img/item--img1.png" alt="imgeshka" class="format__item--img">
                     <h2 class="format__item--title">Видеолекции</h2>
-                    <p class="format__item--text">Выполняйте домашние задания
-                        и проверяйте полученные знания
-                        с помощью различных интерактивных тестов</p>
+                    <p class="format__item--text">Смотрите лекции on-line
+                        от лучших преподавателей
+                        алготрейдинга</p>
                 </div>
                 <div class="format__item">
                     <img src="img/item--img2.png" alt="imgeshka" class="format__item--img">
                     <h2 class="format__item--title">Практическая часть</h2>
-                    <p class="format__item--text">Выполняйте домашние задания
+                    <p class="format__item--text">
+                        Выполняйте домашние задания
                         и проверяйте полученные знания
                         с помощью различных интерактивных тестов</p>
                 </div>
                 <div class="format__item">
                     <img src="img/item--img3.png" alt="imgeshka" class="format__item--img">
                     <h2 class="format__item--title">Форум</h2>
-                    <p class="format__item--text">Обговаривайте вопросы, которые Вас интересуют, напрямую с преподавателями и с другими студентами на закрытом форуме</p>
+                    <p class="format__item--text">
+                        Обговаривайте вопросы, которые Вас интересуют, напрямую
+                        с преподавателями и с другими студентами на закрытом форуме</p>
                 </div>
                 <div class="format__item">
                     <img src="img/item--img4.png" alt="imgeshka" class="format__item--img">
@@ -227,5 +279,164 @@
         </div>
         </div>
     </section>
+    <section class="curse">
+        <div class="container">
+            <h2 class="curse__title">Преимущества курса</h2>
+            <div class="curse__block">
+                <h3 class="curse__subtitle">Интенсив</h2>
+            <div class="curse__cards">
+                <div class="curse__card">
+                    <img src="img/curse--img1.svg" alt="icon" class="curse__icon">
+                    <h4 class="curse_-card--title">Профессионалы</h4>
+                    <p class="curse__card--text">Профессионалы
+                        Преподавать курс для Вас
+                        будут только опытные
+                        трейдеры-практики</p>
+                </div>
+                <div class="curse__card">
+                    <img src="img/curse--img2.svg" alt="icon" class="curse__icon">
+                    <h4 class="curse_-card--title">Последовательность</h4>
+                    <p class="curse__card--text">
+                        Все действия шаг за шагом и до результата
+                        вместе с профессионалами
+                        своего дела</p>
+                </div>
+                <div class="curse__card">
+                    <img src="img/curse--img3.svg" alt="icon" class="curse__icon">
+                    <h4 class="curse_-card--title">100% практики</h4>
+                    <p class="curse__card--text">
+                        Так много практики у Вас ещё не было.
+                        И всё это под руководством
+                        профессионалов</p>
+                </div>
+            </div>
+            <div class="curse__block">
+                <h3 class="curse__subtitle">Результат</h2>
+            <div class="curse__cards">
+                <div class="curse__card">
+                    <img src="img/curse--img4.svg" alt="icon" class="curse__icon">
+                    <h4 class="curse_-card--title">Авторские роботы</h4>
+                    <p class="curse__card--text">
+                        Получите авторских торговых роботов алготрейдинга, успешно торгующих с 2013 года</p>
+                </div>
+                <div class="curse__card">
+                    <img src="img/curse--img5.svg" alt="icon" class="curse__icon">
+                    <h4 class="curse_-card--title">Банк данных</h4>
+                    <p class="curse__card--text">
+                        Получите постоянный доступ
+                        к закрытой информации, которой
+                        Вы точно не найдёте ни в книгах,
+                        ни на других курсах обучения</p>
+                </div>
+                <div class="curse__card">
+                    <img src="img/curse--img6.svg" alt="icon" class="curse__icon">
+                    <h4 class="curse_-card--title">Личный робот и сертификат</h4>
+                    <p class="curse__card--text">
+                        Успешно сдайте все задания курса
+                        и получите сертификат о его окончании!
+                        И главное — своего прибыльного
+                        торгового робота!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <div class="block__price--title">
+                <h2 class="price__title"><span class="bold">Сколько</span> стоит обучение?</h2>
+                <p class="price__text">Станьте частью алготрейдинга прямо сейчас
+                    и всего за месяц прямо на сессиях создайте своего эффективного торгового робота с нуля!</p>
+            </div>
+            <div class="price__cards">
+                <div class="price__card">
+                    <h3 class="price__card--title">Gold</h3>
+                    <p class="price__card--number">$297</p>
+                    <ul class="price__card--list">
+                        <li class="price__list--item">Начитка лекций</li>
+                        <li class="price__list--item">Практика </li>
+                        <li class="price__list--item">Ответы на вопросы </li>
+                        <li class="price__list--item">Тех. поддержка </li>
+                    </ul>
+                    <button class="price__button price__button--first">КУПИТЬ</button>
+                </div>
+                <div class="price__card">
+                    <h3 class="price__card--title">Premium</h3>
+                    <p class="price__card--number">$497</p>
+                    <ul class="price__card--list">
+                        <li class="price__list--item">Обучение с куратором</li>
+                        <li class="price__list--item">Постоянная возможность<br>
+                            связаться с преподователем</li>
+                        <li class="price__list--item">Практика</li>
+                    </ul>
+                    <button class="price__button price__button--midle">КУПИТЬ</button>
+                </div>
+                <div class="price__card">
+                    <h3 class="price__card--title">VIP</h3>
+                    <p class="price__card--number">$997</p>
+                    <ul class="price__card--list">
+                        <li class="price__list--item">Полностью индивидуальное<br>
+                            обучение!</li>
+                        <li class="price__list--item">Индивидуальная<br>
+                            программа </li>
+                        <li class="price__list--item">Максимум практики</li>
+                    </ul>
+                    <button class="price__button">КУПИТЬ</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studyinputs">
+        <div class="container">
+            <div class="block__studyinputs--title">
+                <h2 class="studyinputs__title">Получите первые видеоуроки совершенно бесплатно уже сейчас!</h2>
+                <p class="studyinputs__text">Просто внесите Ваши данные в форму прям сейчас,<br>
+                    и мы сразу Вам вышлем подборку первых видеоуроков.
+                    Убедитесь сами!</p>
+            </div>
+            <div class="studyinputs__block--form">
+                <form action="#" class="studyinputs__form">
+                    <input type="text" class="studyinputs__input" placeholder="Имя">
+                    <input type="text" class="studyinputs__input" placeholder="Телефон">
+                    <input type="text" class="studyinputs__input" placeholder="Email">
+                    <button class="studyinputs__button">НАЧАТЬ ОБУЧЕНИЕ</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="block__reviews--title">
+                <h2 class="reviews--title"><span class="bold">Отзывы</span> наших учеников</h2>
+            </div>
+            <div class="video video__reviews">
+                <img src="img/reviews-img.png" alt="video" class="video__img">
+                <h3 class="reviews__title">Алиса</h3>
+                <p class="reviews__text">Впервые с финансовыми рынками столкнулась в 17 лет, особенно интересовали портфельные инвестиции и риск-менеджмент. Первый заработок составил 12 тысяч долларов, правда, виртуальных.</p>
+            </div>
+        </div>
+    </section>
+    <section class="results">
+        <div class="container">
+            <div class="results__blocks">
+            <div class="results__block">
+                <h2 class="results__title"><span class="bold">Результаты</span><br> наших учеников</h2>
+                <p class="results__text">С нами наши ученики научились эффективно торговать на международных рынках</p>
+            </div>
+            <div class="results__block">
+                <img src="img/result-img1.png" alt="imgeshka" class="results__img">
+                <h3 class="results__block--title">Мария, январь 2019</h3>
+                <p class="results__block--text">Методом проб и ошибок смог определить необходимые качества успешного трейдера, 70% которых составляет психологическая и эмоциональная устойчивость во время трейдинга</p>
+            </div>
+            <div class="results__block">
+                <img src="img/result-img2.png" alt="imgeshka" class="results__img">
+                <h3 class="results__block--title">Иван, январь 2019</h3>
+                <p class="results__block--text">Алготрейдинг — это свежее дыхание в мире финансовой аналитики, новые научные подходы к обучению и только качественная информация</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
