@@ -1,0 +1,163 @@
+.row
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 100%
+.col
+    &-30
+        flex-basis: 30%
+    &-50
+        flex-basis: 50%
+        &--width
+            width: 49%
+    &-60
+        flex-basis: 60%
+    &-70
+        flex-basis: 70%
+.section
+    padding: 120px 0
+    &-title
+        display: flex
+        flex-direction: column
+        align-items: center
+        &--left
+            display: flex
+            flex-direction: column
+            align-items: start
+            text-align: left
+        &__heading
+            font-weight: normal
+            font-size: 2.25rem
+            color: $black
+            text-align: center
+        &__subtitle
+            text-align: center
+.lessons
+    background: url('../img/lessons-bg.jpg') no-repeat center / cover
+    color: $black
+    padding-top: 60px
+    .section
+        &-title
+            &__heading
+                font-weight: bold
+                color: $light
+            &--left
+                margin-bottom: 3.625rem
+    &-heading
+        margin-bottom: 2.3125rem
+        color: $light
+    &-questions
+        padding-left: 1.1rem
+        margin-bottom: 3.125rem
+        &__item
+            margin-bottom: 1.5625rem
+            color: $light
+            &::marker
+                color: rgba($light, 0.5)
+            &:last-of-type
+                margin-bottom: 0
+    &-text
+        font-weight: normal
+        max-width: 27.3875rem
+        padding-left: 1.1rem
+        color: rgba($light, 0.5)
+    &-number
+        display: flex
+        align-items: center
+        margin-bottom: 4.25rem
+        &__text
+            color: rgba($light, 0.5)
+            margin-right: -6rem
+            margin-bottom: 4.25rem
+            max-width: 6.25rem
+            width: 100%
+        &__button
+            border: none
+            background: transparent
+            padding: 0.65rem 0.9375rem
+            color: rgba($light, 0.5)
+            &--active
+                border: none
+                color: $light
+                background-color: #06BEE1
+                border-radius: 50%
+    .col-50
+        &:last-of-type
+            padding-top: 4rem
+    &-homework
+        padding-bottom: 4.3125rem
+        border-bottom: 1px solid rgba(38, 85, 108, 1)
+        margin-bottom: 4.9375rem
+        &__title
+            font-size: 1.5rem
+            margin-bottom: 2.6875rem
+            color: $light
+        &__text
+            max-width: 26.4875rem
+            color: $light
+            &::marker
+                color: rgba($light, 0.5)
+        .lessons
+            &-questions
+                margin-bottom: 0
+    &-bonus
+        &__title
+            font-size: 1.5rem
+            margin-bottom: 1.75rem
+            color: $light
+        &__desc
+            display: flex
+            align-items: center
+        &__img
+            margin-right: 1.9375rem
+        &__text
+            max-width: 20.5375rem
+            color: rgba($light, 0.5)
+    &-buttons
+        display: flex
+        justify-content: center
+        margin-top: 5.75rem
+        &__button
+            margin-right: 1.8125rem
+    .button--white
+        background: transparent
+        color: $light
+        border: 1px solid $light
+    .col
+        &-50
+            &--width
+                &:last-of-type
+                    .swiper
+                        padding-top: 4rem
+    .lessons-swiper-pagination
+        display: flex
+    .swiper-pagination-bullet 
+        width: 20px
+        height: 20px
+        text-align: center
+        line-height: 20px
+        font-size: 12px
+        color: rgba($light, 0.5)
+        opacity: 1
+        background: transparent
+    .swiper-pagination
+        position: relative
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction
+        bottom: 0
+    .swiper-pagination-bullet-active 
+        color: #fff
+        background: #007aff
+    .swiper-button-next, .swiper-button-prev
+        position: relative
+        top: 0
+        margin-top: 0
+        &::after
+            display: none
+    .swiper-button-prev
+        width: 60px
+        background: url('../img/arrow-left--op.png') no-repeat center
+        margin-right: 11.9375rem
+    .swiper-button-next
+        width: 60px
+        background: url('../img/arrow-right--white.png') no-repeat center
+        margin-left: 11.9375rem
