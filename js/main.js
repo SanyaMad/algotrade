@@ -30,6 +30,8 @@ $(document).ready(function () {
         },
       });
 
+      new WOW().init(); 
+
       const thirdSwiper = new Swiper(".lessons-swiper", {
         loop: true,
         pagination: {
@@ -43,9 +45,4 @@ $(document).ready(function () {
             prevEl: '.lessons-swiper-button-prev',
           },
       });
-
-      new WOW().init();
-
-
-      
 });
